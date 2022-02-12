@@ -16,13 +16,13 @@
 
 
 // App identity
-BUNDLE_DISPLAY_NAME = Element
-BASE_BUNDLE_IDENTIFIER = im.vector.app
-APPLICATION_GROUP_IDENTIFIER = group.im.vector
+BUNDLE_DISPLAY_NAME = Scope
+BASE_BUNDLE_IDENTIFIER = org.scopeapp.ios
+APPLICATION_GROUP_IDENTIFIER = group.org.scopeapp
 APPLICATION_SCHEME = element
 
 // Team
-DEVELOPMENT_TEAM = 7J4U792NQT
+DEVELOPMENT_TEAM = X5VR8ZW423 
 
 
 // Provisioning profiles

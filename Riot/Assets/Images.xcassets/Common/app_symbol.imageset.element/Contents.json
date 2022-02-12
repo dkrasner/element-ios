@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "scope_logo_medical_only.png",
+      "filename" : "Element Symbol.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "scope_logo_medical_only@2x.png",
+      "filename" : "Element Symbol@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "scope_logo_medical_only@3x.png",
+      "filename" : "Element Symbol@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
