@@ -355,7 +355,7 @@ public class VectorL10n: NSObject {
   public static var authUseServerOptions: String { 
     return VectorL10n.tr("Vector", "auth_use_server_options") 
   }
-  /// Email or user name
+  /// User name
   public static var authUserIdPlaceholder: String { 
     return VectorL10n.tr("Vector", "auth_user_id_placeholder") 
   }
@@ -2687,7 +2687,7 @@ public class VectorL10n: NSObject {
   public static var roomCreationErrorInviteUserByEmailWithoutIdentityServer: String { 
     return VectorL10n.tr("Vector", "room_creation_error_invite_user_by_email_without_identity_server") 
   }
-  /// User ID, name or email
+  /// User ID
   public static var roomCreationInviteAnotherUser: String { 
     return VectorL10n.tr("Vector", "room_creation_invite_another_user") 
   }

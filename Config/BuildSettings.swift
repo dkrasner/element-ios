@@ -88,14 +88,16 @@ final class BuildSettings: NSObject {
     }
     
     // Element-Web instance for the app
-    static let applicationWebAppUrlString = "https://app.element.io"
+    //static let applicationWebAppUrlString = "https://app.element.io"
+    static let applicationWebAppUrlString = "https://scopeapp.org"
     
     
     // MARK: - Server configuration
     
     // Default servers proposed on the authentication screen
     static let serverConfigDefaultHomeserverUrlString = "https://scopeapp.org"
-    static let serverConfigDefaultIdentityServerUrlString = "https://vector.im"
+    //static let serverConfigDefaultIdentityServerUrlString = "https://vector.im"
+    static let serverConfigDefaultIdentityServerUrlString = ""
     
     static let serverConfigSygnalAPIUrlString = "https://matrix.org/_matrix/push/v1/notify"
     
@@ -134,7 +136,8 @@ final class BuildSettings: NSObject {
     // This baseURL is used to generate permalinks within the app (E.g. timeline message permalinks).
     // Optional String that when set is used as permalink base, when nil matrix.to format is used.
     // Example value would be "https://www.example.com", note there is no trailing '/'.
-    static let clientPermalinkBaseUrl: String? = nil
+    //static let clientPermalinkBaseUrl: String? = nil
+    static let clientPermalinkBaseUrl: String = "https://scopeapp.org"
     
     // MARK: - VoIP
     static var allowVoIPUsage: Bool {
@@ -150,10 +153,9 @@ final class BuildSettings: NSObject {
     #warning("Unused build setting: should this be implemented in ShowDirectory?")
     static let publicRoomsAllowServerChange: Bool = true
     // List of homeservers for the public rooms directory
-    static let publicRoomsDirectoryServers = [
-        "matrix.org",
-        "gitter.im"
-    ]
+    static let publicRoomsDirectoryServers = [] as [String]
+        // "matrix.org",
+        // "gitter.im"
     
     // MARK: -  Rooms Screen
     static let roomsAllowToJoinPublicRooms: Bool = true
@@ -249,7 +251,7 @@ final class BuildSettings: NSObject {
     static let settingsScreenShowUserFirstName: Bool = false
     static let settingsScreenShowUserSurname: Bool = false
     static let settingsScreenAllowAddingEmailThreepids: Bool = true
-    static let settingsScreenAllowAddingPhoneThreepids: Bool = true
+    static let settingsScreenAllowAddingPhoneThreepids: Bool = false
     static let settingsScreenShowThreepidExplanatory: Bool = true
     static let settingsScreenShowDiscoverySettings: Bool = true
     static let settingsScreenAllowIdentityServerConfig: Bool = false
@@ -340,8 +342,9 @@ final class BuildSettings: NSObject {
     // MARK: - Authentication Screen
     static let authScreenShowRegister = true
     static let authScreenShowPhoneNumber = false
-    static let authScreenShowForgotPassword = true
+    static let authScreenShowForgotPassword = false
     static let authScreenShowCustomServerOptions = false
+    static let authScreenShowSocialLoginSection = true
     
     // MARK: - Unified Search
     static let unifiedSearchScreenShowPublicDirectory = true

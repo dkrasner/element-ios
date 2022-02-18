@@ -89,7 +89,8 @@
 "auth_login_single_sign_on" = "Sign In";
 "auth_send_reset_email" = "Send Reset Email";
 "auth_return_to_login" = "Return to login screen";
-"auth_user_id_placeholder" = "Email or user name";
+// "auth_user_id_placeholder" = "Email or user name";
+"auth_user_id_placeholder" = "User name";
 "auth_password_placeholder" = "Password";
 "auth_new_password_placeholder" = "New password";
 "auth_user_name_placeholder" = "User name";
@@ -181,7 +182,7 @@
 "room_creation_keep_private" = "Keep private";
 "room_creation_make_private" = "Make private";
 "room_creation_wait_for_creation" = "A room is already being created. Please wait.";
-"room_creation_invite_another_user" = "User ID, name or email";
+"room_creation_invite_another_user" = "User ID";
 "room_creation_error_invite_user_by_email_without_identity_server" = "No identity server is configured so you cannot add a participant with an email.";
 "room_creation_dm_error" = "We couldn't create your DM. Please check the users you want to invite and try again.";
 
