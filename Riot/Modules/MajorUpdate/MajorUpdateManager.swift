@@ -37,8 +37,9 @@ final public class MajorUpdateManager: NSObject {
         
         let shouldShowMajorUpdate = (lastUsedAppVersion.compare(Constants.lastMajorAppVersion) == .orderedAscending)
         MXLog.debug("[MajorUpdateManager] shouldShowMajorUpdate: \(shouldShowMajorUpdate). AppVersion.lastUsed: \(lastUsedAppVersion). lastMajorAppVersion: \(Constants.lastMajorAppVersion)")
-        
-        return shouldShowMajorUpdate
+        // TODO put this back in when we sort out our versioning
+        //return shouldShowMajorUpdate
+        return false
     }
     
     var learnMoreURL: URL {
