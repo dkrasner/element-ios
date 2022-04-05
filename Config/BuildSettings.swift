@@ -98,8 +98,7 @@ final class BuildSettings: NSObject {
     static let serverConfigDefaultHomeserverUrlString = "https://scopeapp.org"
     //static let serverConfigDefaultIdentityServerUrlString = "https://vector.im"
     static let serverConfigDefaultIdentityServerUrlString = ""
-    
-    static let serverConfigSygnalAPIUrlString = "https://matrix.org/_matrix/push/v1/notify"
+    static let serverConfigSygnalAPIUrlString = "https://scopeapp.org/_matrix/push/v1/notify"
     
     
     // MARK: - Legal URLs
